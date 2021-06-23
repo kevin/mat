@@ -23,7 +23,7 @@ System.out.println(d.add(e));
 `public int getRows()`\
 `public int getColumns()`\
 `public double getValue(int row, int col) throws MatrixException`\
-`public void forceSet(int row, int col, double n)`\
+`public void forceSet(int row, int col, double n) throws MatrixException`\
 `public Matrix add(Matrix b) throws MatrixException`\
 `public Matrix subtract(Matrix b) throws MatrixException`\
 `public Matrix multiply(double scalar) throws MatrixException`\
