@@ -5,6 +5,7 @@ a somewhat functional matrix implementation, supports adding subtracting and mul
 to use: just build as a jar
 ```
 cd Mat
+javac *.java
 jar cfv mat.jar *
 ```
 ```
