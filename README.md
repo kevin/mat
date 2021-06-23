@@ -28,4 +28,5 @@ System.out.println(d.add(e));
 `public Matrix subtract(Matrix b) throws MatrixException`\
 `public Matrix multiply(double scalar) throws MatrixException`\
 `public Matrix multiply(Matrix b) throws MatrixException`\
+`public Matrix transpose() throws MatrixException`\
 `public String toString()`

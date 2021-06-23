@@ -138,6 +138,20 @@ public class Matrix {
 		
 	}
 	
+	public Matrix transpose() throws MatrixException {
+		
+		Matrix out = new Matrix(getColumns(), getRows());
+		
+		for (int r = 0; r < getRows(); r++) {
+			for (int c = 0; c < getColumns(); c++) {
+				out.forceSet(c, r, getValue(r, c));
+			}
+		}
+		
+		return out;
+		
+	}
+	
 	public String toString() {
 		
 		StringBuilder out = new StringBuilder();
